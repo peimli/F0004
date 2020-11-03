@@ -1,0 +1,5 @@
+mérföld = input('hány mérföldre van a sárkány barlangja?')
+mérföld = int(mérföld)
+kilóméter = mérföld * 8.3536
+tengerimérföld = kilóméter / 1.852
+print(' a sárkány barlangja ' , kilóméter, ' kilóméterre és  '   , tengerimérföld, 'tengeri mérföldre található' ,sep='' )
