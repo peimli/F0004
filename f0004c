@@ -1,0 +1,7 @@
+szám1 = input ('mondjon egy számot')
+szám2 = input ('mondjon egy másik számot')
+szám1 = int(szám1)
+szám2 = int(szám2)
+szám_szorzata = szám1 * szám2
+
+print( 'a számok szorzata' ,szám_szorzata, sep='' )
